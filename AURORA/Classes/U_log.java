@@ -75,7 +75,7 @@ public class U_log extends JFrame implements UserLogin {
         leftPanel.add(updateButton);
 
         JLabel imageLabel = new JLabel();
-        ImageIcon imageIcon = new ImageIcon("C:\\Users\\moynu\\Downloads\\AURORA.png");
+        ImageIcon imageIcon = new ImageIcon(U_log.class.getResource("/image/AURORA.png"));
 
         // Get the original image size
         int originalWidth = imageIcon.getIconWidth();
